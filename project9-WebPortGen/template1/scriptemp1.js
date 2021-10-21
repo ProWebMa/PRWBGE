@@ -1,0 +1,22 @@
+let r = document.getElementById("nm")
+let ra = document.getElementById("jb")
+let ral = document.getElementById("des")
+let y = document.querySelector('img')
+let yl = document.getElementById('pexp')
+let twi = document.getElementById('twitter')
+let lnk = document.getElementById('linkedin')
+let git = document.getElementById('github')
+
+document.title = localStorage.getItem("name")
+r.textContent = localStorage.getItem("name")
+ra.textContent = localStorage.getItem("job")
+yl.textContent = localStorage.getItem("experience")
+ral.textContent = localStorage.getItem("description")
+
+git.href = localStorage.getItem("github")
+lnk.href = localStorage.getItem("linkedin")
+twi.href = localStorage.getItem("twitter")
+
+let yt = localStorage.getItem("personalimage")
+y.setAttribute("src", yt)
+console.log(y.src)
