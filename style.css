@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-bottom: 2px solid grey;
+    position: sticky;
+    top: 0;
+    width: 93.3%;
+    background-color: white;
+}
+
+.it-works {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.it-works .bx {
+    border: 2px solid black;
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 10px 15px;
+    width: 100px;
+    background-color: white;
+}
+
+ul li {
+    margin-left: 40px;
+    display: inline-block;
+    list-style: none;
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 30px;
+}
+
+ul li:hover {
+    outline: 2px solid black;
+}
+
+main {
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+label {
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#but {
+    font-size: 20px;
+    padding: 5px 7.5px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+#but:hover {
+    background-color: black;
+    color: white;
+}
+
+.contact {
+    text-align: center;
+}
+
+.fa {
+    color: black;
+    font-size: 30px;
+    margin: 10px;
+}
+
+#email-contact p {
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.it-works {
+    padding-top: 100px;
+}
+
+.con {
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+    margin-bottom: 60px;
+}
+
+.title {
+    background-color: white;
+    font-family: cursive;
+    align-items: center;
+}
+
+span {
+    color: darkblue;
+}
